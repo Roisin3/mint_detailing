@@ -1,0 +1,31 @@
+body {
+  background-color: #109f90;
+}
+
+#cologo {
+  width: 100%;
+  object-fit: fill;
+}
+
+p, h2, h3, li {
+  font-family: Arial, sans-serif;
+}
+
+.slideReviews {
+    display: block;
+}
+
+.slideReviews p {
+  font-style: italic;
+}
+
+.slideRevImg {
+  object-fit: fill;
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: #67afa5;
+  width: 100%;
+}

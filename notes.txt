@@ -1,0 +1,12 @@
+#8bf3fb
+
+#58b752
+
+#109f90
+
+#ffffff
+
+
+Reviews need images or after co image reviews cycles in images will no longer be shown. 
+        Added <img> tag with empty source to resolve.
+
