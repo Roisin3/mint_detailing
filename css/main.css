@@ -11,6 +11,37 @@ p, h2, h3, li {
   font-family: Arial, sans-serif;
 }
 
+h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+h3 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5em;
+  align-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-item {
+  background-color: #ffffff;
+  justify-content: center;
+  list-style-position: inside;
+  padding: .5em;
+  box-shadow: 0 2px 4px 0 #b7fdee, 0 3px 10px 0 #b7fdee;
+}
+
 .slideReviews {
     display: block;
 }
@@ -21,11 +52,21 @@ p, h2, h3, li {
 
 .slideRevImg {
   object-fit: fill;
-  width: 100%;
+  width: 50%;
   display: block;
+  box-shadow: 0 2px 4px 0 #b7fdee, 0 3px 10px 0 #b7fdee;
 }
 
 footer {
   background-color: #67afa5;
-  width: 100%;
+  width: fill;
+}
+
+.contact {
+  line-height: 24px;
+}
+
+.material-icons {  
+  display: inline-flex;
+  vertical-align: top;
 }
