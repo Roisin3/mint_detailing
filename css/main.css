@@ -25,6 +25,15 @@ h3 {
   text-align: center;
 }
 
+#about p {
+  background-color: mintcream;
+  text-align: center;
+  font-weight: bold;
+  padding: .5em;
+  box-shadow: 0 2px 4px 0 #38A3A5, 0 3px 10px 0 #38A3A5;
+
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, .5fr);
